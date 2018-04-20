@@ -1,3 +1,9 @@
+/**本文档根据g2o官方网站的examples写成，去掉了
+ * 原文档中关于命令行参数解析的内容。
+ */
+
+
+
 // STL
 #include <iostream>
 #include <string>
@@ -46,8 +52,5 @@ int main(int argc ,char* argv[] )
     optimizer.save(outputfilename.c_str() );
 
     return 0;
-
-
-
 
 }
